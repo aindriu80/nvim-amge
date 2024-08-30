@@ -9,7 +9,6 @@ return {
 		"saadparwaiz1/cmp_luasnip",
 		"L3MON4D3/LuaSnip",
 	},
-	---@param opts cmp.ConfigSchema
 	opts = function(_, opts)
 		table.insert(opts.sources, { name = "emoji" })
 	end,

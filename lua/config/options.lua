@@ -24,4 +24,5 @@ vim.opt.fillchars = { eob = " " }
 vim.opt.listchars = {
   nbsp = " ",
   tab = "  ", -- Replace tab characters with a space
+
 }
